@@ -1,36 +1,19 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
-  <title>Sample Deployment</title>
-  <style>
-    body {
-      color: #ffffff;
-      background-color: #0188cc;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-    }
-    
-    h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-    
-    h2 {
-      font-size: 200%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-  </style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="login.css" />
+<title>CSS Login form</title>
 </head>
 <body>
-  <div align="center">
-    <h1>Congratulations Devops Team members</h1>
-    <h1> new deployments from code deploy </h1>
-    <h2>This application was deployed using AWS CodeDeploy service.</h2>
-    <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
-  </div>
+
+<div class="login">
+  <input type="text" placeholder="Username" id="username">  
+  <input type="password" placeholder="Password" id="password">  
+    <input type="submit" value="Sign In">
+    <a href="#" class="forgot">forgot password?</a>
+</div>
+
 </body>
 </html>
-
